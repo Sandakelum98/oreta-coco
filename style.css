@@ -581,10 +581,36 @@ ul {
 .footer-socket {
 	border-top: 1px solid #ffffff;
 }
-
-
-
-
+/*service page*/
+.h1-secondary {
+	font-size: 40px;
+	line-height: 55px;
+}
+.full-cont {
+	display: flex;
+}
+.full-cont-item {
+	width: 50%;
+}
+.full-cont-item img {
+	width: 100%;
+	height: 610px;
+	object-fit: cover;
+}
+.bg-img-overlay {
+	background-color: #000;
+}
+.service-intro-img {
+	float: left;
+	padding-right: 60px;
+	padding-bottom: 50px;
+}
+.multi-para p {
+	margin-bottom: 20px;
+}
+.multi-para p:last-child {
+	margin-bottom: 0px;
+}
 
 
 
