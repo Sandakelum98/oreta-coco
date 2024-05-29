@@ -611,6 +611,39 @@ ul {
 .multi-para p:last-child {
 	margin-bottom: 0px;
 }
+.faq-list li {
+	margin-bottom: 25px;
+}
+.faq-list li:last-child {
+	margin-bottom: 0px;
+}
+.faq-list .faq {
+	padding: 25px 35px;
+	background-color: #f0f0f0;
+	position: relative;
+}
+.faq-list .faq:after {
+	font-family: FontAwesome;
+	content: '\f0d7';
+	position: absolute;
+	right: 30px;
+	color: #5f5f5f;
+	font-size: 24px;
+}
+.faq-list .faq-answer {
+	padding: 35px 35px;
+	background-color: #f8f8f8;
+	display: none;
+}
+.primary-title.p-b-50 {
+	padding-bottom: 50px;
+}
+
+
+
+
+
+
 
 
 

@@ -41,6 +41,15 @@
             $container.find('.product-more-desc').slideToggle(200);
         });
 
+        //JS function for FAQ
+        $(".faq").on("click", function () {
+            if (!$(this).closest('li').hasClass("active")) {
+                $('.faq-list .faq-answer').slideUp(1000);
+                $(this).closest('li').find('.faq-answer').slideDown(1000);
+                $('.faq-list li').removeClass('active');
+                $(this).closest('li').addClass('active');
+            }
+        });
 
     });
 })(jQuery);
