@@ -611,6 +611,9 @@ ul {
 .multi-para p:last-child {
 	margin-bottom: 0px;
 }
+.faq-padding {
+	padding: 0 100px;
+}
 .faq-list li {
 	margin-bottom: 25px;
 }
@@ -618,9 +621,10 @@ ul {
 	margin-bottom: 0px;
 }
 .faq-list .faq {
-	padding: 25px 35px;
+	padding: 20px 35px;
 	background-color: #f0f0f0;
 	position: relative;
+	font-weight: 600;
 }
 .faq-list .faq:after {
 	font-family: FontAwesome;
@@ -631,7 +635,7 @@ ul {
 	font-size: 24px;
 }
 .faq-list .faq-answer {
-	padding: 35px 35px;
+	padding: 30px 35px;
 	background-color: #f8f8f8;
 	display: none;
 }
