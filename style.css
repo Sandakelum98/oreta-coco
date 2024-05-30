@@ -642,9 +642,38 @@ ul {
 .primary-title.p-b-50 {
 	padding-bottom: 50px;
 }
-
-
-
+/*contact page*/
+.secondary-into {
+	background-image: url("img/common-intro-img.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.secondary-intro-title {
+	font-size: 40px;
+	line-height: 55px;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+.intro-section-item {
+	background-color: #000000b8;
+	width: 60%;
+	padding: 90px 0 90px 210px;
+}
+.contact-info-secondary .contact-info-item {
+	position: relative;
+	padding-left: 45px;
+	margin-bottom: 18px;
+}
+.contact-info-secondary .contact-info-icon {
+	position: absolute;
+	top: 9px;
+	left: 5px;
+}
+.contact-info-secondary .contact-info-text {
+	font-size: 21px;
+	color: #ffffff;
+	line-height: 38px;
+}
 
 
 
