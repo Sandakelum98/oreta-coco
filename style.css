@@ -436,6 +436,9 @@ ul {
 	align-items: center;
 	text-align: center;
 }
+.primary-title.center.have-padding {
+	padding: 0 215px 40px;
+}
 .title-upper {
 	font-size: 26px;
 	line-height: 48px;
@@ -591,6 +594,7 @@ ul {
 }
 .full-cont-item {
 	width: 50%;
+	position: relative;
 }
 .full-cont-item img {
 	width: 100%;
@@ -598,7 +602,13 @@ ul {
 	object-fit: cover;
 }
 .bg-img-overlay {
-	background-color: #000;
+	background-color: #000000b8;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 135px 170px 150px 70px;
 }
 .service-intro-img {
 	float: left;
@@ -657,7 +667,12 @@ ul {
 .intro-section-item {
 	background-color: #000000b8;
 	width: 60%;
+}
+.intro-section-item.p-90 {
 	padding: 90px 0 90px 210px;
+}
+.intro-section-item.p-130 {
+	padding: 140px 210px;
 }
 .contact-info-secondary .contact-info-item {
 	position: relative;
@@ -674,9 +689,45 @@ ul {
 	color: #ffffff;
 	line-height: 38px;
 }
-
-
-
+/*about us page*/
+.secondary-intro-para {
+	font-size: 18px;
+	color: #ffffff;
+}
+.vision-mission-item {
+	display: flex;
+	margin-bottom: 50px;
+}
+.vision-mission-item .left-area {
+	min-width: 220px;
+	position: relative;
+}
+.vision-mission-bg-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.vision-mission-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.vision-mission-item .right-area {
+	padding: 30px 50px;
+	background-color: #f0f0f0;
+}
+.vision-mission-sub {
+	font-size: 26px;
+	line-height: 30px;
+	font-weight: 600;
+}
+.vision-mission-title {
+	font-size: 34px;
+	line-height: 48px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
 
 
 
